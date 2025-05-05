@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('/Users/ricardoromano/Downloads/wallpaperflare.com_wallpaper (3).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 13px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #fff9f9;
+}
+
+/* Botão */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.caixa-flutuante {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px; /* limita a largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* sombra para destacar */
+    border-radius: 10px; /* cantos arredondados */
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

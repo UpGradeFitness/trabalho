@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxDrive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/Users/ricardoromano/Documents/Trabalho Prático de PW/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Users/ricardoromano/Documents/Trabalho Prático de PW/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Users/ricardoromano/Documents/Trabalho Prático de PW/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>LuxDrive</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="caixa-flutuante">
+            <h2>Bem-vindo ao LuxDrive</h2>
+            <p>Oferecemos os melhores serviços de transporte premium.</p>
+            <button onclick="mostrarMensagem()">Clique Aqui</button>
+        </section>
+        <section id="catalogo">
+            <h2>Catálogo de Carros</h2>
+            <div class="carro">
+                <img src="/Users/ricardoromano/Downloads/2018-812-ferrari-mansory-wallpaper-preview.jpg" alt="Ferrari 812" style="width: 300px; border-radius: 10px;">
+                <h3>Ferrari 812</h3>
+                <p>€1400/dia</p>
+                <button>Reservar</button>
+            </div>
+        </section>
+        <section id="catalogo">
+            <h2>Catálogo de Carros</h2>
+            <div class="carro">
+                <img src="/Users/ricardoromano/Downloads/bugatti-chiron-super-car-luxury-wallpaper-preview.jpg" alt="Bugatti Chiron" style="width: 300px; border-radius: 10px;">
+                <h3>Bugatti Chiron</h3>
+                <p>€1600/dia</p>
+                <button>Reservar</button>
+            </div>
+        </section>
+        <section id="reserva">
+            <h2>Reserve Agora</h2>
+            <form>
+                <label>Nome:</label><input type="text" name="nome" required><br>
+                <br>
+                <label>Carro:</label><select name="carro">
+                    <option>Ferrari 812</option>
+                    <option>Bugatti Chiron</option>
+                </select><br>
+                <br>
+                <label>Data de retirada:</label><input type="date" name="inicio"><br>
+                <br>
+                <label>Data de devolução:</label><input type="date" name="fim"><br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 LuxDrive. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
